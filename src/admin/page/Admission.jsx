@@ -19,7 +19,7 @@ function Admission() {
     const token = localStorage.getItem("token");
 
     axios
-      .get(`${import.meta.env.VITE_API_URL}/admin/contact`, {
+      .get(`${import.meta.env.VITE_API_URL}/contact`, {
         headers: {
           authorization: token,
         },

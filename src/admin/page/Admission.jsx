@@ -62,7 +62,6 @@ function Admission() {
                 <th>Email</th>
                 <th>Phone</th>
                 <th>Program</th>
-                <th>City</th>
                 <th>Message</th>
                 <th>Applied Time</th>
                 <th>Action</th>
@@ -77,7 +76,6 @@ function Admission() {
                   <td>{item.email}</td>
                   <td>{item.phoneNumber}</td>
                   <td>{item.program}</td>
-                  <td>{item.centerCity}</td>
                   <td>{item.message}</td>
                   <td>
                     {new Date(item.createdAt).toLocaleString("en-IN", {
